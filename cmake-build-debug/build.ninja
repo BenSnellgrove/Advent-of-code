@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: advent_of_code
+# Project: advent-of-code-c
 # Configurations: Debug
 # =============================================================================
 
@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/Code/advent-of-code/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target advent_of_code
+# Object build statements for EXECUTABLE target advent-of-code-c
 
 
 #############################################
-# Order-only phony target for advent_of_code
+# Order-only phony target for advent-of-code-c
 
-build cmake_object_order_depends_target_advent_of_code: phony || CMakeFiles/advent_of_code.dir
+build cmake_object_order_depends_target_advent-of-code-c: phony || CMakeFiles/advent-of-code-c.dir
 
-build CMakeFiles/advent_of_code.dir/2022/c_cpp/main.c.obj: C_COMPILER__advent_of_code_Debug D$:/Code/advent-of-code/2022/c_cpp/main.c || cmake_object_order_depends_target_advent_of_code
-  DEP_FILE = CMakeFiles\advent_of_code.dir\2022\c_cpp\main.c.obj.d
+build CMakeFiles/advent-of-code-c.dir/2022/c_cpp/main.c.obj: C_COMPILER__advent-of-code-c_Debug D$:/Code/advent-of-code/2022/c_cpp/main.c || cmake_object_order_depends_target_advent-of-code-c
+  DEP_FILE = CMakeFiles\advent-of-code-c.dir\2022\c_cpp\main.c.obj.d
   FLAGS = -g -std=gnu11
-  OBJECT_DIR = CMakeFiles\advent_of_code.dir
-  OBJECT_FILE_DIR = CMakeFiles\advent_of_code.dir\2022\c_cpp
+  OBJECT_DIR = CMakeFiles\advent-of-code-c.dir
+  OBJECT_FILE_DIR = CMakeFiles\advent-of-code-c.dir\2022\c_cpp
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target advent_of_code
+# Link build statements for EXECUTABLE target advent-of-code-c
 
 
 #############################################
-# Link the executable advent_of_code.exe
+# Link the executable advent-of-code-c.exe
 
-build advent_of_code.exe: C_EXECUTABLE_LINKER__advent_of_code_Debug CMakeFiles/advent_of_code.dir/2022/c_cpp/main.c.obj
+build advent-of-code-c.exe: C_EXECUTABLE_LINKER__advent-of-code-c_Debug CMakeFiles/advent-of-code-c.dir/2022/c_cpp/main.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\advent_of_code.dir
+  OBJECT_DIR = CMakeFiles\advent-of-code-c.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = advent_of_code.exe
-  TARGET_IMPLIB = libadvent_of_code.dll.a
-  TARGET_PDB = advent_of_code.exe.dbg
+  TARGET_FILE = advent-of-code-c.exe
+  TARGET_IMPLIB = libadvent-of-code-c.dll.a
+  TARGET_PDB = advent-of-code-c.exe.dbg
 
 
 #############################################
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build advent_of_code: phony advent_of_code.exe
+build advent-of-code-c: phony advent-of-code-c.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +109,7 @@ build advent_of_code: phony advent_of_code.exe
 #############################################
 # Folder: D:/Code/advent-of-code/cmake-build-debug
 
-build all: phony advent_of_code.exe
+build all: phony advent-of-code-c.exe
 
 # =============================================================================
 # Built-in targets

@@ -122,7 +122,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=advent_of_code
+CMAKE_PROJECT_NAME:STATIC=advent-of-code-c
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/ranlib.exe
@@ -203,6 +203,15 @@ CMAKE_STRIP:FILEPATH=C:/Program Files/JetBrains/CLion 2022.2.4/bin/mingw/bin/str
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+advent-of-code-c_BINARY_DIR:STATIC=D:/Code/advent-of-code/cmake-build-debug
+
+//Value Computed by CMake
+advent-of-code-c_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+advent-of-code-c_SOURCE_DIR:STATIC=D:/Code/advent-of-code
 
 //Value Computed by CMake
 advent_of_code_BINARY_DIR:STATIC=D:/Code/advent-of-code/cmake-build-debug
